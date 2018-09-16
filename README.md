@@ -1,2 +1,8 @@
 # Data-Structures
-a repository of data structures and all the programmes in different languages
+
+A repository of Data Structures and all the programs in different languages.
+
+## ARRAYS
+
+* 1D Arrays
+  * [C](ARRAYS/C/1DArrays.c)
