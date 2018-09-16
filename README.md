@@ -19,3 +19,17 @@ A repository of Data Structures and all the programs in different languages.
 ## Queue
 
 ## Binary-Trees
+
+
+### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts.
+
+                                            
+                                            
+                                            
+                                            
+                                            ALL RIGHTS RESERVED:
+                                            
+                                            TradeMark : TechOus 
+                                            
+                                            Admins: 1. Nidhi Mittal
+                                                    2.Aniket Batabyal
