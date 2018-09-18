@@ -2,34 +2,55 @@
 
 A repository of Data Structures and all the programs in different languages.
 
-# Structure and Steps to be done before a pull request
+## Structure and Steps to be done before a pull request
 
 * Maintain a proper format.
-   * mention language name,data-structure name
-   * add testcases
-   
+  * Add the code in the language you love by making a langauge name folder in a data structure if not present.
+  * By adding new langauge code should also be added otherwise pull request will not be accepted.
+  * Add specfied .gitignore file in new language directory.
+  * Add testcases in comments if you want.
+  * If your pull request is according to guidelines then your name will be added in [CONTRIBUTORS](CONTRIBUTORS.md).
+
 ## ARRAYS
 
 * 1D Arrays
   * [C](ARRAYS/C/1DArrays.c)
-## Linked List
+* 2D Arrays
+* 3D Arrays
 
-## Stack
+## LINKED LIST
 
-## Queue
+* SINGLE LINKED LIST
+  * C++
+    * [INSERT AT HEAD](LINKED-LIST/SINGLE/Cpp/Insert_at_Head.cpp)
+    * [INSERT AT TAIL](LINKED-LIST/SINGLE/Cpp/Insert_at_Tail.cpp)
+* DOUBLE LINKED LIST
+  * [C](LINKED-LIST/DOUBLE/C/Main.c)
+* CIRCULAR LINKED LIST
 
-## Binary-Trees
+## STACKS
 
+* ONE WAY STACK
+  * [C++](Stack/ONE-WAY-STACK/Cpp/anarchyMonkey-minimum_element_using_stack.cpp)
+* TWO WAY STACK
+
+## QUEUES
+
+* SIMPLE QUEUE
+* CIRCULAR QUEUE
+* DOUBLY ENDED QUEUE
+
+## HEAPS
+
+## TREES
+
+## GRAPHS
 
 ### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts.
 
-                                            
-                                            
-                                            
-                                            
                                             ALL RIGHTS RESERVED:
-                                            
-                                            TradeMark : TechOus 
-                                            
+
+                                            TradeMark : TechOus
+
                                             Admins: 1. Nidhi Mittal
-                                                    2.Aniket Batabyal
+                                                    2. Aniket Batabyal
