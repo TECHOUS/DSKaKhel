@@ -24,8 +24,10 @@ A repository of Data Structures and all the programs in different languages.
   * C++
     * [INSERT AT HEAD](LINKED-LIST/SINGLE/Cpp/Insert_at_Head.cpp)
     * [INSERT AT TAIL](LINKED-LIST/SINGLE/Cpp/Insert_at_Tail.cpp)
+  * [JAVA](LINKED-LIST/SINGLE/JAVA/Main.java)
 * DOUBLE LINKED LIST
   * [C](LINKED-LIST/DOUBLE/C/Main.c)
+  * [JAVA](LINKED-LIST/DOUBLE/JAVA/Main.java)
 * CIRCULAR LINKED LIST
 
 ## STACKS
@@ -46,7 +48,7 @@ A repository of Data Structures and all the programs in different languages.
 
 ## GRAPHS
 
-### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts.
+### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts
 
                                             ALL RIGHTS RESERVED:
 
