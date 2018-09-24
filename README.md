@@ -15,12 +15,16 @@ A repository of Data Structures and all the programs in different languages.
 
 * 1D Arrays
   * [C](ARRAYS/C/1DArrays.c)
+  * [C++](ARRAYS/C++/1darrays.cpp)
   * [JAVA](ARRAYS/JAVA/oneDarray.java)
 * 2D Arrays
+  * [C++](ARRAYS/C++/2darrays.cpp)
   * [JAVA](ARRAYS/JAVA/twoDarray.java)
 * 3D Arrays
+  * [C++](ARRAYS/C++/3darrays.cpp)
   * [JAVA](ARRAYS/JAVA/threeDarray.java)
 * 4D Arrays
+  * [C++](ARRAYS/C++/4darrays.cpp)
   * [JAVA](ARRAYS/JAVA/fourDarray.java)
 
 ## LINKED LIST
