@@ -18,6 +18,7 @@ A repository of Data Structures and all the programs in different languages.
   * [C++](ARRAYS/C++/1darrays.cpp)
   * [JAVA](ARRAYS/JAVA/oneDarray.java)
 * 2D Arrays
+  * [C](ARRAYS/C/2DArrays.c)
   * [C++](ARRAYS/C++/2darrays.cpp)
   * [JAVA](ARRAYS/JAVA/twoDarray.java)
 * 3D Arrays
