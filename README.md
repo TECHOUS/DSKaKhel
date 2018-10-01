@@ -41,6 +41,10 @@ A repository of Data Structures and all the programs in different languages.
   * [C](LINKED-LIST/DOUBLE/C/Main.c)
   * [JAVA](LINKED-LIST/DOUBLE/JAVA/Main.java)
 * CIRCULAR LINKED LIST
+* ARRAYLIST
+  * [JAVA](LINKED-LIST/arrayList.java)
+* VECTORS
+  * [JAVA](LINKED-LIST/vectors.java)
 
 ## STACKS
 
