@@ -33,6 +33,7 @@ A repository of Data Structures and all the programs in different languages.
 ## LINKED LIST
 
 * SINGLE LINKED LIST
+  * [C](LINKED-LIST/SINGLE/C/Main.c)
   * C++
     * [INSERT AT HEAD](LINKED-LIST/SINGLE/Cpp/Insert_at_Head.cpp)
     * [INSERT AT TAIL](LINKED-LIST/SINGLE/Cpp/Insert_at_Tail.cpp)
