@@ -38,25 +38,33 @@ A repository of Data Structures and all the programs in different languages.
     * [INSERT AT HEAD](LINKED-LIST/SINGLE/Cpp/Insert_at_Head.cpp)
     * [INSERT AT TAIL](LINKED-LIST/SINGLE/Cpp/Insert_at_Tail.cpp)
   * [JAVA](LINKED-LIST/SINGLE/JAVA/Main.java)
+
 * DOUBLE LINKED LIST
   * [C](LINKED-LIST/DOUBLE/C/Main.c)
   * [JAVA](LINKED-LIST/DOUBLE/JAVA/Main.java)
+
 * CIRCULAR LINKED LIST
+
 * ARRAYLIST
-  * [JAVA](LINKED-LIST/arrayList.java)
+  * [JAVA](LINKED-LIST/ARRAYLIST/JAVA/arrayList.java)
+
 * VECTORS
-  * [JAVA](LINKED-LIST/vectors.java)
+  * [C++](LINKED-LIST/VECTORS/C++/Main.cpp)
+  * [JAVA](LINKED-LIST/VECTORS/JAVA/vectors.java)
 
 ## STACKS
 
 * ONE WAY STACK
   * [C++](Stack/ONE-WAY-STACK/Cpp/anarchyMonkey-minimum_element_using_stack.cpp)
+
 * TWO WAY STACK
 
 ## QUEUES
 
 * SIMPLE QUEUE
+
 * CIRCULAR QUEUE
+
 * DOUBLY ENDED QUEUE
 
 ## HEAPS
