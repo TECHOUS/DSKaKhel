@@ -30,11 +30,11 @@ A repository of Data Structures and all the programs in different languages.
   * [C++](ARRAYS/C++/4darrays.cpp)
   * [JAVA](ARRAYS/JAVA/fourDarray.java)
 
-## LINKED LIST
+## LISTS
 
 * SINGLE LINKED LIST
   * [C](LINKED-LIST/SINGLE/C/Main.c)
-  * C++
+  * [C++](LINKED-LIST/SINGLE/Cpp/Main.cpp)
     * [INSERT AT HEAD](LINKED-LIST/SINGLE/Cpp/Insert_at_Head.cpp)
     * [INSERT AT TAIL](LINKED-LIST/SINGLE/Cpp/Insert_at_Tail.cpp)
   * [JAVA](LINKED-LIST/SINGLE/JAVA/Main.java)
