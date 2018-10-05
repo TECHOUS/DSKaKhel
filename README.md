@@ -33,24 +33,24 @@ A repository of Data Structures and all the programs in different languages.
 ## LISTS
 
 * SINGLE LINKED LIST
-  * [C](LINKED-LIST/SINGLE/C/Main.c)
-  * [C++](LINKED-LIST/SINGLE/Cpp/Main.cpp)
-    * [INSERT AT HEAD](LINKED-LIST/SINGLE/Cpp/Insert_at_Head.cpp)
-    * [INSERT AT TAIL](LINKED-LIST/SINGLE/Cpp/Insert_at_Tail.cpp)
-  * [JAVA](LINKED-LIST/SINGLE/JAVA/Main.java)
+  * [C](LISTS/SINGLE-LINKED-LIST/C/Main.c)
+  * [C++](LISTS/SINGLE-LINKED-LIST/Cpp/Main.cpp)
+    * [INSERT AT HEAD](LISTS/SINGLE-LINKED-LIST/Cpp/Insert_at_Head.cpp)
+    * [INSERT AT TAIL](LISTS/SINGLE-LINKED-LIST/Cpp/Insert_at_Tail.cpp)
+  * [JAVA](LISTS/SINGLE-LINKED-LIST/JAVA/Main.java)
 
 * DOUBLE LINKED LIST
-  * [C](LINKED-LIST/DOUBLE/C/Main.c)
-  * [JAVA](LINKED-LIST/DOUBLE/JAVA/Main.java)
+  * [C](LISTS/DOUBLE-LINKED-LIST/C/Main.c)
+  * [JAVA](LISTS/DOUBLE-LINKED-LIST/JAVA/Main.java)
 
 * CIRCULAR LINKED LIST
 
 * ARRAYLIST
-  * [JAVA](LINKED-LIST/ARRAYLIST/JAVA/arrayList.java)
+  * [JAVA](LISTS/ARRAYLIST/JAVA/arrayList.java)
 
 * VECTORS
-  * [C++](LINKED-LIST/VECTORS/C++/Main.cpp)
-  * [JAVA](LINKED-LIST/VECTORS/JAVA/vectors.java)
+  * [C++](LISTS/VECTORS/C++/Main.cpp)
+  * [JAVA](LISTS/VECTORS/JAVA/vectors.java)
 
 ## STACKS
 
