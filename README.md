@@ -69,6 +69,11 @@ A repository of Data Structures and all the programs in different languages.
 
 ## HEAPS
 
+* C
+  * [DYNAMIC 1D ARRAY](HEAPS/C/dynamicarray.c)
+  * [DYNAMIC 2D ARRAY](HEAPS/C/dynamic2d.c)
+  * [DYNAMIC 3D ARRAY](HEAPS/C/dynamic3d.c)
+
 ## TREES
 
 ## GRAPHS
