@@ -1,1 +1,0 @@
-Environment (MinGW/Cygwin/Visual Studio/WSL) is not selected Configure

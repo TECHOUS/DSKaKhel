@@ -55,7 +55,12 @@ A repository of Data Structures and all the programs in different languages.
 ## STACKS
 
 * ONE WAY STACK
-  * [C++](Stack/ONE-WAY-STACK/Cpp/anarchyMonkey-minimum_element_using_stack.cpp)
+  * [C++](STACKS/ONE-WAY-STACK/Cpp/basicPushPop.cpp)
+    * [Brackets are balanced or not](STACKS/ONE-WAY-STACK/Cpp/balancedParanthesis.cpp)
+    * [Evaluation of expression](STACKS/ONE-WAY-STACK/Cpp/evaluationofExpressions.cpp)
+    * [Infix to postfix](STACKS/ONE-WAY-STACK/Cpp/infixTopostfix.cpp)
+    * [Finding the minimum element](STACKS/ONE-WAY-STACK/Cpp/minimum_element_using_stack.cpp)
+    * [Reverse a stack](STACKS/ONE-WAY-STACK/Cpp/reverseStack.cpp)
 
 * TWO WAY STACK
 

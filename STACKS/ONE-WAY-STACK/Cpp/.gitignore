@@ -3,3 +3,6 @@
 *.out
 *.o
 *.exe
+*.txt
+*.iml
+*.xml
