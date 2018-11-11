@@ -201,7 +201,7 @@ void delete_using_value(int value)
         prev->next = current->next;
         current->next=NULL;
         free(current);
-    } 
+    }
     length--;
 }
 
@@ -276,7 +276,7 @@ int main()
 
     delete_head();
     print_single_linked_list();
-    
+
     delete_tail();
     print_single_linked_list();
 
