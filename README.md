@@ -61,6 +61,7 @@ A repository of Data Structures and all the programs in different languages.
     * [Infix to postfix](STACKS/ONE-WAY-STACK/Cpp/infixTopostfix.cpp)
     * [Finding the minimum element](STACKS/ONE-WAY-STACK/Cpp/minimum_element_using_stack.cpp)
     * [Reverse a stack](STACKS/ONE-WAY-STACK/Cpp/reverseStack.cpp)
+  * [JAVA](STACKS/ONE-WAY-STACK/JAVA/ArrayStack.java)
 
 * TWO WAY STACK
 
