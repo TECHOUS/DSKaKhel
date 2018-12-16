@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<malloc.h>
 int top = 0;
 char *STACK;
@@ -6,18 +6,19 @@ char str[10000];
 char *res;
 
 /* for pushing the operators into stack */
+/*
 void push(char value)
 {
   STACK[top++] = value;
 }
 /* for popping the operators into stack */
-int pop()
+/*int pop()
 {
   top--;
   return STACK[top];
 }
 /* for displaying the stack */
-void displayStack()
+/*void displayStack()
 {
   for(int i = 0 ; i < top ; i++)
   {
@@ -26,7 +27,7 @@ void displayStack()
 }
 
 /* manually gives away the precedence */
-int precedence(char op)
+/*int precedence(char op)
 {
   if (op == '+' || op == '-')
   {
@@ -42,7 +43,7 @@ int precedence(char op)
   }
 }
 /* the conversion takes place here */
-void infixTopostfix(char str[],int count)
+/*void infixTopostfix(char str[],int count)
 {
   int i,k=0;
   char x;
@@ -75,7 +76,7 @@ void infixTopostfix(char str[],int count)
 }
 
 /* main function for function calling */
-int main()
+/*int main()
 {
   int i = 0 ,count = 0;
   gets(str);
@@ -88,4 +89,65 @@ int main()
   count = 0;
 
 
+}
+*/
+
+#include<stdio.h>
+#include<stdlib.h>
+#include <ctype.h>
+char stack[20];
+int top = -1;
+void push(char x)
+{
+    stack[++top] = x;
+}
+
+char pop()
+{
+    if(top == -1)
+        return -1;
+    else
+        return stack[top--];
+}
+
+int priority(char x)
+{
+    if(x == '(')
+        return 0;
+    if(x == '+' || x == '-')
+        return 1;
+    if(x == '*' || x == '/')
+        return 2;
+}
+
+main()
+{
+    char exp[20];
+    char *e, x;
+    printf("Enter the expression :: ");
+    scanf("%s",exp);
+    e = exp;
+    while(*e != '\0')
+    {
+        if(isalnum(*e))
+            printf("%c",*e);
+        else if(*e == '(')
+            push(*e);
+        else if(*e == ')')
+        {
+            while((x = pop()) != '(')
+                printf("%c", x);
+        }
+        else
+        {
+            while(priority(stack[top]) >= priority(*e))
+                printf("%c",pop());
+            push(*e);
+        }
+        e++;
+    }
+    while(top != -1)
+    {
+        printf("%c",pop());
+    }
 }

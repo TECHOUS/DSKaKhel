@@ -81,7 +81,7 @@ void display()
   temp = root;
 
   while(temp != NULL)
-  {del
+  {
       printf("%d ",temp->data);
       temp = temp->link;
   }
