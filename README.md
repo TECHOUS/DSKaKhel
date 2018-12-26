@@ -14,71 +14,72 @@ A repository of Data Structures and all the programs in different languages.
 ## ARRAYS
 
 * 1D Arrays
-  * [C](ARRAYS/C/1DArrays.c)
+  * C
+    * [Simple](ARRAYS/C/1DArrays.c)
+    * [Using heap memory](ARRAYS/C/dynamicarray.c)
   * [C++](ARRAYS/C++/1darrays.cpp)
   * [JAVA](ARRAYS/JAVA/oneDarray.java)
 * 2D Arrays
-  * [C](ARRAYS/C/2DArrays.c)
+  * C
+    * [Simple](ARRAYS/C/2DArrays.c)
+    * [Using heap memory](ARRAYS/C/dynamic2d.c)
   * [C++](ARRAYS/C++/2darrays.cpp)
   * [JAVA](ARRAYS/JAVA/twoDarray.java)
 * 3D Arrays
-  * [C](ARRAYS/C/3DArrays.c)
+  * C
+    * [Simple](ARRAYS/C/3DArrays.c)
+    * [Using heap memory](ARRRAYS/C/dynamic3d.c)
   * [C++](ARRAYS/C++/3darrays.cpp)
   * [JAVA](ARRAYS/JAVA/threeDarray.java)
 * 4D Arrays
   * [C](ARRAYS/C/4DArrays.c)
   * [C++](ARRAYS/C++/4darrays.cpp)
   * [JAVA](ARRAYS/JAVA/fourDarray.java)
+* INBUILT
+* MISC
+
+## STRING
+
+* [JAVA](STRING/JAVA/Strings.java)
 
 ## LISTS
 
-* SINGLE LINKED LIST
+* SINGLE
   * [C](LISTS/SINGLE/C/Main.c)
   * [C++](LISTS/SINGLE/Cpp/Main.cpp)
     * [INSERT AT HEAD](LISTS/SINGLE/Cpp/Insert_at_Head.cpp)
     * [INSERT AT TAIL](LISTS/SINGLE/Cpp/Insert_at_Tail.cpp)
   * [JAVA](LISTS/SINGLE/JAVA/Main.java)
-
-* DOUBLE LINKED LIST
+* DOUBLE
   * [C](LISTS/DOUBLE/C/Main.c)
   * [JAVA](LISTS/DOUBLE/JAVA/Main.java)
-
-* CIRCULAR LINKED LIST
-
-* ARRAYLIST
-  * [JAVA](LISTS/ARRAYLIST/JAVA/arrayList.java)
-
-* VECTORS
-  * [C++](LISTS/VECTORS/C++/Main.cpp)
-  * [JAVA](LISTS/VECTORS/JAVA/vectors.java)
+* CIRCULAR
+* INBUILT LISTS
+  * LINKED LIST
+  * ARRAYLIST
+    * [JAVA](LISTS/INBUILT/ARRAYLIST/JAVA/arrayList.java)
+  * VECTORS
+    * [C++](LISTS/INBUILT/VECTORS/C++/Main.cpp)
+    * [JAVA](LISTS/INBUILT/VECTORS/JAVA/vectors.java)
+* MISC
 
 ## STACKS
 
-* ONE WAY STACK
-  * [C++](STACKS/ONE-WAY-STACK/Cpp/basicPushPop.cpp)
-    * [Brackets are balanced or not](STACKS/ONE-WAY-STACK/Cpp/balancedParanthesis.cpp)
-    * [Evaluation of expression](STACKS/ONE-WAY-STACK/Cpp/evaluationofExpressions.cpp)
-    * [Infix to postfix](STACKS/ONE-WAY-STACK/Cpp/infixTopostfix.cpp)
-    * [Finding the minimum element](STACKS/ONE-WAY-STACK/Cpp/minimum_element_using_stack.cpp)
-    * [Reverse a stack](STACKS/ONE-WAY-STACK/Cpp/reverseStack.cpp)
-  * [JAVA](STACKS/ONE-WAY-STACK/JAVA/ArrayStack.java)
-
-* TWO WAY STACK
+* FIXED ARRAY STACK
+  * [JAVA](STACKS/JAVA/ArrayStack.java)
+* DYNAMIC ARRAY STACK
+  * [C++](STACKS/Cpp/basicPushPop.cpp)
+* LINKED STACK
+* INBUILT
+* MISC
+  * C++
+    * [Brackets are balanced or not](STACKS/Cpp/balancedParanthesis.cpp)
+    * [Evaluation of expression](STACKS/Cpp/evaluationofExpressions.cpp)
+    * [Infix to postfix](STACKS/Cpp/infixTopostfix.cpp)
+    * [Finding the minimum element](STACKS/Cpp/minimum_element_using_stack.cpp)
+    * [Reverse a stack](STACKS/Cpp/reverseStack.cpp)
 
 ## QUEUES
-
-* SIMPLE QUEUE
-
-* CIRCULAR QUEUE
-
-* DOUBLY ENDED QUEUE
-
-## HEAPS
-
-* C
-  * [DYNAMIC 1D ARRAY](HEAPS/C/dynamicarray.c)
-  * [DYNAMIC 2D ARRAY](HEAPS/C/dynamic2d.c)
-  * [DYNAMIC 3D ARRAY](HEAPS/C/dynamic3d.c)
 
 ## TREES
 
