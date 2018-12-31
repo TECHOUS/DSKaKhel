@@ -70,6 +70,7 @@ A repository of Data Structures and all the programs in different languages.
 * DYNAMIC ARRAY STACK
   * [C++](STACKS/Cpp/basicPushPop.cpp)
 * LINKED STACK
+  * [JAVA](STACKS/JAVA/LINKED-STACK/LinkedStack.java)
 * INBUILT
 * MISC
   * C++
