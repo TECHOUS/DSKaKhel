@@ -19,7 +19,7 @@ Enter a Postfix Equation (space separated) = 5 6 9 * +
 
 import operator as op
 
-def Solve(Postfix):
+def Solve(postfix):
     Stack = []
     Div = lambda x, y: int(x/y)     # integer division operation
     Opr = {'^':op.pow, '*':op.mul, '/':Div, '+':op.add, '-':op.sub}     # operators & their respective operation
@@ -28,8 +28,8 @@ def Solve(Postfix):
     print('Symbol'.center(8), 'Action'.center(12), 'Stack', sep = " | ")
     print('-'*(30+len(Postfix)))
 
-    for x in Postfix:
-        if( x.isdigit() ):          # if x in digit
+    for x in postfix:
+        if x.isdigit() :          # if x in digit
             Stack.append(x)         # append x to stack
             print(x.rjust(8), ('push('+x+')').ljust(12), ','.join(Stack), sep = " | ")      # output in tabular format
         else:
