@@ -26,7 +26,7 @@ def Solve(postfix):
 
     # print table header
     print('Symbol'.center(8), 'Action'.center(12), 'Stack', sep = " | ")
-    print('-'*(30+len(Postfix)))
+    print('-'*(30+len(postfix)))
 
     for x in postfix:
         if x.isdigit() :          # if x in digit
