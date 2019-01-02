@@ -79,6 +79,14 @@ A repository of Data Structures and all the programs in different languages.
     * [Infix to postfix](STACKS/Cpp/infixTopostfix.cpp)
     * [Finding the minimum element](STACKS/Cpp/minimum_element_using_stack.cpp)
     * [Reverse a stack](STACKS/Cpp/reverseStack.cpp)
+  * Python
+    * [Brackets are balanced or not](STACKS/Python/balancedParanthesis.py)
+    * [Basic Push Pop](STACKS/Python/basicPushPop.py)
+    * [Infix to postfix](STACKS/Python/infixToPostfix.py)
+    * [Infix to prefix](STACKS/Python/infixToPrefix.py)
+    * [Postfix Evaluation](STACKS/Python/postfixEvaluation.py)
+    * [Prefix Evaluation](STACKS/Python/prefixEvaluation.py)
+    * [Reverse a stack](STACKS/Python/reverseStack.py)
 
 ## QUEUES
 
