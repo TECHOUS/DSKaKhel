@@ -28,7 +28,7 @@ A repository of Data Structures and all the programs in different languages.
 * 3D Arrays
   * C
     * [Simple](ARRAYS/C/3DArrays.c)
-    * [Using heap memory](ARRRAYS/C/dynamic3d.c)
+    * [Using heap memory](ARRAYS/C/dynamic3d.c)
   * [C++](ARRAYS/C++/3darrays.cpp)
   * [JAVA](ARRAYS/JAVA/threeDarray.java)
 * 4D Arrays
@@ -41,6 +41,9 @@ A repository of Data Structures and all the programs in different languages.
 ## STRING
 
 * [JAVA](STRING/JAVA/Strings.java)
+* [Python](STRING/Python)
+  * [String Functions](STRING/Python/Strings.py)
+  * [Pallindrome](STRING/Python/Pallindrome.py)
 
 ## LISTS
 
