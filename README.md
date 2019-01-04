@@ -41,9 +41,7 @@ A repository of Data Structures and all the programs in different languages.
 ## STRING
 
 * [JAVA](STRING/JAVA/Strings.java)
-* [Python](STRING/Python)
-  * [String Functions](STRING/Python/Strings.py)
-  * [Pallindrome](STRING/Python/Pallindrome.py)
+* [Python](STRING/Python/Strings.py)
 
 ## LISTS
 
