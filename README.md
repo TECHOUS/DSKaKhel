@@ -40,6 +40,8 @@ A repository of Data Structures and all the programs in different languages.
 
 ## STRING
 
+* [C](STRING/C/Strings.c)
+* [C++](STRING/C++/Strings.cpp)
 * [JAVA](STRING/JAVA/Strings.java)
 
 ## LISTS
