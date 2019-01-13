@@ -64,6 +64,14 @@ A repository of Data Structures and all the programs in different languages.
     * [C++](LISTS/INBUILT/VECTORS/C++/Main.cpp)
     * [JAVA](LISTS/INBUILT/VECTORS/JAVA/vectors.java)
 * MISC
+  * Find the nth node from the end in Single Linked List
+    * JAVA
+      * APPROACH 1: [Compute the size while adding](LISTS/MISC/Nth-node-from-end/JAVA/Approach1.java)
+      * APPROACH 2: [Using two current pointers](LISTS/MISC/Nth-node-from-end/JAVA/Approach2.java)
+      * APPROACH 3: [Using hashtable](LISTS/MISC/Nth-node-from-end/JAVA/Approach3.java)
+      * APPROACH 4: [Using Hashtable while adding](LISTS/MISC/Nth-node-from-end/JAVA/Approach4.java)
+      * APPROACH 5: [Finding node in one scan](LISTS/MISC/Nth-node-from-end/JAVA/Approach5.java)
+      * APPROACH 6: [Using recursion](LISTS/MISC/Nth-node-from-end/JAVA/Approach6.java)
 
 ## STACKS
 
