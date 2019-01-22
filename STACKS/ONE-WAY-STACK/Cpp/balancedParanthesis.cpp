@@ -1,52 +1,45 @@
-#include<stdio.h>
-#include<malloc.h>
-
-int top = 0;
- char *stack;
-
-/* Basic push pop implementation */
-void push(char value)
+#include<iostream>
+#include <stack>
+#include<string.h>
+using namespace std;
+// logic of the balanced paranthesis problem {{}}
+int balancedParanthesis(char expression[])
 {
-  stack[top++] = value;
-}
-int pop()
-{
-  top--;
-  return stack[top];
-}
-/* ******************************************* */
+  stack <char> s;
+  int x;
 
-/* display function */
-void display()
-{
-  for(int i = 0 ; i < top ; i++)
+  for(int i = 0 ; i < strlen(expression); i++)
   {
-    printf(" %c",stack[i]);
-  }
-}
-
-void balancedParanthesis(char expression[])
-{
-  stack = (char *) malloc (10 * sizeof(char));
-  int i = 0 ;
-  while(expression[i] != '\0')
-  {
-    if (expression[i] == '[' || expression[i]=='{' || expression[i]== '(')
+    if(expression[i] == '{')
     {
-      push(expression[i]);
+      s.push(expression[i]);
     }
-
-    i++;
+    else
+    {
+      s.pop();
+    }
   }
-  printf("%d",top);
-      display();
-}
+
+    if(s.empty())
+    {
+      return 1;
+    }
+    else
+    {
+      return 0;
+    }
+  }
 
 int main()
 {
   int ans;
   char str[1000];
   gets(str);
-  balancedParanthesis(str);
+  if(balancedParanthesis(str) == 1){
+    cout<<"Balanced";
+  }
+  else{
+    cout<<"Not balanced";
+  }
   return 0;
 }
