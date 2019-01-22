@@ -14,60 +14,91 @@ A repository of Data Structures and all the programs in different languages.
 ## ARRAYS
 
 * 1D Arrays
-  * [C](ARRAYS/C/1DArrays.c)
+  * C
+    * [Simple](ARRAYS/C/1DArrays.c)
+    * [Using heap memory](ARRAYS/C/dynamicarray.c)
   * [C++](ARRAYS/C++/1darrays.cpp)
   * [JAVA](ARRAYS/JAVA/oneDarray.java)
 * 2D Arrays
-  * [C](ARRAYS/C/2DArrays.c)
+  * C
+    * [Simple](ARRAYS/C/2DArrays.c)
+    * [Using heap memory](ARRAYS/C/dynamic2d.c)
   * [C++](ARRAYS/C++/2darrays.cpp)
   * [JAVA](ARRAYS/JAVA/twoDarray.java)
 * 3D Arrays
-  * [C](ARRAYS/C/3DArrays.c)
+  * C
+    * [Simple](ARRAYS/C/3DArrays.c)
+    * [Using heap memory](ARRRAYS/C/dynamic3d.c)
   * [C++](ARRAYS/C++/3darrays.cpp)
   * [JAVA](ARRAYS/JAVA/threeDarray.java)
 * 4D Arrays
   * [C](ARRAYS/C/4DArrays.c)
   * [C++](ARRAYS/C++/4darrays.cpp)
   * [JAVA](ARRAYS/JAVA/fourDarray.java)
+* INBUILT
+* MISC
+
+## STRING
+
+* [C](STRING/C/Strings.c)
+* [C++](STRING/C++/Strings.cpp)
+* [JAVA](STRING/JAVA/Strings.java)
 
 ## LISTS
 
-* SINGLE LINKED LIST
-  * [C](LINKED-LIST/SINGLE/C/Main.c)
-  * [C++](LINKED-LIST/SINGLE/Cpp/Main.cpp)
-    * [INSERT AT HEAD](LINKED-LIST/SINGLE/Cpp/Insert_at_Head.cpp)
-    * [INSERT AT TAIL](LINKED-LIST/SINGLE/Cpp/Insert_at_Tail.cpp)
-  * [JAVA](LINKED-LIST/SINGLE/JAVA/Main.java)
-
-* DOUBLE LINKED LIST
-  * [C](LINKED-LIST/DOUBLE/C/Main.c)
-  * [JAVA](LINKED-LIST/DOUBLE/JAVA/Main.java)
-
-* CIRCULAR LINKED LIST
-
-* ARRAYLIST
-  * [JAVA](LINKED-LIST/ARRAYLIST/JAVA/arrayList.java)
-
-* VECTORS
-  * [C++](LINKED-LIST/VECTORS/C++/Main.cpp)
-  * [JAVA](LINKED-LIST/VECTORS/JAVA/vectors.java)
+* SINGLE
+  * [C](LISTS/SINGLE/C/Main.c)
+  * [C++](LISTS/SINGLE/Cpp/Main.cpp)
+    * [INSERT AT HEAD](LISTS/SINGLE/Cpp/Insert_at_Head.cpp)
+    * [INSERT AT TAIL](LISTS/SINGLE/Cpp/Insert_at_Tail.cpp)
+  * [JAVA](LISTS/SINGLE/JAVA/Main.java)
+* DOUBLE
+  * [C](LISTS/DOUBLE/C/Main.c)
+  * [JAVA](LISTS/DOUBLE/JAVA/Main.java)
+* CIRCULAR
+* INBUILT LISTS
+  * LINKED LIST
+  * ARRAYLIST
+    * [JAVA](LISTS/INBUILT/ARRAYLIST/JAVA/arrayList.java)
+  * VECTORS
+    * [C++](LISTS/INBUILT/VECTORS/C++/Main.cpp)
+    * [JAVA](LISTS/INBUILT/VECTORS/JAVA/vectors.java)
+* MISC
+  * Find the nth node from the end in Single Linked List
+    * JAVA
+      * APPROACH 1: [Compute the size while adding](LISTS/MISC/Nth-node-from-end/JAVA/Approach1.java)
+      * APPROACH 2: [Using two current pointers](LISTS/MISC/Nth-node-from-end/JAVA/Approach2.java)
+      * APPROACH 3: [Using hashtable](LISTS/MISC/Nth-node-from-end/JAVA/Approach3.java)
+      * APPROACH 4: [Using Hashtable while adding](LISTS/MISC/Nth-node-from-end/JAVA/Approach4.java)
+      * APPROACH 5: [Finding node in one scan](LISTS/MISC/Nth-node-from-end/JAVA/Approach5.java)
+      * APPROACH 6: [Using recursion](LISTS/MISC/Nth-node-from-end/JAVA/Approach6.java)
 
 ## STACKS
 
-* ONE WAY STACK
-  * [C++](Stack/ONE-WAY-STACK/Cpp/anarchyMonkey-minimum_element_using_stack.cpp)
-
-* TWO WAY STACK
+* FIXED ARRAY STACK
+  * [JAVA](STACKS/JAVA/ArrayStack.java)
+* DYNAMIC ARRAY STACK
+  * [C++](STACKS/Cpp/basicPushPop.cpp)
+* LINKED STACK
+  * [JAVA](STACKS/JAVA/LINKED-STACK/LinkedStack.java)
+* INBUILT
+* MISC
+  * C++
+    * [Brackets are balanced or not](STACKS/Cpp/balancedParanthesis.cpp)
+    * [Evaluation of expression](STACKS/Cpp/evaluationofExpressions.cpp)
+    * [Infix to postfix](STACKS/Cpp/infixTopostfix.cpp)
+    * [Finding the minimum element](STACKS/Cpp/minimum_element_using_stack.cpp)
+    * [Reverse a stack](STACKS/Cpp/reverseStack.cpp)
+  * Python
+    * [Brackets are balanced or not](STACKS/Python/balancedParanthesis.py)
+    * [Basic Push Pop](STACKS/Python/basicPushPop.py)
+    * [Infix to postfix](STACKS/Python/infixToPostfix.py)
+    * [Infix to prefix](STACKS/Python/infixToPrefix.py)
+    * [Postfix Evaluation](STACKS/Python/postfixEvaluation.py)
+    * [Prefix Evaluation](STACKS/Python/prefixEvaluation.py)
+    * [Reverse a stack](STACKS/Python/reverseStack.py)
 
 ## QUEUES
-
-* SIMPLE QUEUE
-
-* CIRCULAR QUEUE
-
-* DOUBLY ENDED QUEUE
-
-## HEAPS
 
 ## TREES
 
