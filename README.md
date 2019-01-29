@@ -36,7 +36,10 @@ A repository of Data Structures and all the programs in different languages.
   * [C++](ARRAYS/C++/4darrays.cpp)
   * [JAVA](ARRAYS/JAVA/fourDarray.java)
 * INBUILT
+  * [Arrays class in JAVA](ARRAYS/JAVA/arrays.java)
 * MISC
+  * JAGGED
+    * [C](ARRAYS/C/MISC/jaggedarray.c)
 
 ## STRING
 
