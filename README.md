@@ -105,6 +105,52 @@ A repository of Data Structures and all the programs in different languages.
 
 ## TREES
 
+### BINARY TREES
+
+* TRAVERSALS
+  * DEPTH FIRST SEARCH
+    * INORDER
+      * C
+        * ITERATIVE
+        * [RECURSIVE](TREES/BINARY-TREE/C/inordertraversal.c)
+      * C++
+        * [RECURSIVE](TREES/BINARY-TREE/Cpp/traversalUsing_B_Tree.cpp)
+      * JAVA
+        * [ITERATIVE](TREES/BINARY-TREE/JAVA/IterativeInorder.java)
+        * [RECURSIVE](TREES/BINARY-TREE/JAVA/Inorder.java)
+    * PREORDER
+      * C++
+        * [RECURSIVE](TREES/BINARY-TREE/Cpp/traversalUsing_B_Tree.cpp)
+      * JAVA
+        * [ITERATIVE](TREES/BINARY-TREE/JAVA/IterativePreorder.java)
+        * [RECURSIVE](TREES/BINARY-TREE/JAVA/Preorder.java)
+    * POSTORDER
+      * C++
+        * [RECURSIVE](TREES/BINARY-TREE/Cpp/traversalUsing_B_Tree.cpp)
+      * JAVA
+        * [ITERATIVE](TREES/BINARY-TREE/JAVA/IterativePostorder.java)
+        * [RECURSIVE](TREES/BINARY-TREE/JAVA/Postorder.java)
+  * BREADTH FIRST SEARCH
+    * LEVEL ORDER
+      * [C](TREES/BINARY-TREE/C/printLevelorder.c)
+      * [C++](TREES/BINARY-TREE/Cpp/printLevelOrder.cpp)
+      * [JAVA](TREES/BINARY-TREE/JAVA/LevelOrder.java)
+* MISC
+  * **Construct Tree using Inorder and Preorder**
+    * [C](TREES/BINARY-TREE/C/constructTreeInorder.c)
+  * **Construct Tree with inorder and postorder**
+    * [C++](TREES/BINARY-TREE/Cpp/Construct_Tree_In_Post.cpp)
+  * **Find right nodes**
+    * [C++](TREES/BINARY-TREE/Cpp/printRightNodes.cpp)
+  * **Print odd level nodes**
+    * [C++](TREES/BINARY-TREE/Cpp/printOddEvenNodes_Tree.cpp)
+  * **Count leaf and non leaf nodes**
+    * [C++](TREES/BINARY-TREE/Cpp/findLeafAndNonLeaf.cpp)
+  * **Find the height of the tree**
+    * [C++](TREES/BINARY-TREE/Cpp/findHeightOfTree.cpp)
+  * **Construct Mirror Tree**
+    * [C++](TREES/BINARY-TREE/Cpp/ConstructMirrorTree.cpp)
+
 ## GRAPHS
 
 ### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts
