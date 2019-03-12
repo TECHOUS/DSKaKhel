@@ -2,14 +2,9 @@
 
 A repository of Data Structures and all the programs in different languages.
 
-## Structure and Steps to be done before a pull request
+## CONTRIBUTION
 
-* Maintain a proper format.
-  * Add the code in the language you love by making a langauge name folder in a data structure if not present.
-  * By adding new langauge code should also be added otherwise pull request will not be accepted.
-  * Add specfied .gitignore file in new language directory.
-  * Add testcases in comments if you want.
-  * If your pull request is according to guidelines then your name will be added in [CONTRIBUTORS](CONTRIBUTORS.md).
+For your contribution follow our [guidelines](CONTRIBUTING.md)
 
 ## ARRAYS
 
@@ -152,6 +147,10 @@ A repository of Data Structures and all the programs in different languages.
     * [C++](TREES/BINARY-TREE/Cpp/ConstructMirrorTree.cpp)
 
 ## GRAPHS
+
+## LICENSE
+
+[Apache License](LICENSE)
 
 ### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts
 
