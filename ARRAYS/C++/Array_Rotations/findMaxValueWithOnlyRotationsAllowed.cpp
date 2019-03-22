@@ -36,8 +36,7 @@ int Calculate_Rotation_Sum(int * arr, int size){
     return eachRotationSum;
 }
 
-void RotateArray(int * arr ,int size,int k){
-    while(k--){
+void RotateArray(int * arr ,int size){
         int temp = arr[0];
 
         for(int i = 0 ; i < size - 1 ; i++){
@@ -45,13 +44,11 @@ void RotateArray(int * arr ,int size,int k){
         }
 
         arr[size-1] = temp;
-    } // O(n*k);
-
-}
+    } 
 
 int findMaxWithOnly_Rotations(int *arr,int size){
     
-    int firstSum = 0,j=0,rotations = 1,foundMax = 0;
+    int firstSum = 0,j=0,rotations = 0,foundMax = 0;
     int *rotationSum = new int[size];
     /* find all rotations and sum them */
     
@@ -62,12 +59,12 @@ int findMaxWithOnly_Rotations(int *arr,int size){
     j = 1;
 
     while(rotations < size){
-    RotateArray(arr,size,rotations);
+    RotateArray(arr,size);
     rotationSum[j++] = Calculate_Rotation_Sum(arr,size);
     rotations++;
     }
 
-   // printSumArr(rotationSum , size);
+    printSumArr(rotationSum , size);
     for(int i = 0 ; i < j ; i++){
             foundMax = max(rotationSum[i],foundMax);
         }
@@ -77,9 +74,11 @@ int findMaxWithOnly_Rotations(int *arr,int size){
 
 void printSumArr(int * arr , int size){
 
+    cout<<"The array rotations are"<<endl;
     for(int i = 0 ; i < size ; i++){
-        cout<<"The sum at index "<<i<<" is "<<arr[i]<<endl;
+        cout<<arr[i]<<" ";
     }
+    printf("\n");
 }
 int main(){
 
