@@ -51,15 +51,11 @@ int processArray(int *arr,int len){
             st.push(arr[i]);
         }
     }
-
     while(!st.empty()){
         arr[j++] = st.top();
         st.pop();
-        
-    }
-
-    
-    len = j;
+        }
+        len = j;
     
 
 return len;
