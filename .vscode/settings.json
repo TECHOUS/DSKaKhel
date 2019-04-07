@@ -9,6 +9,7 @@
         "xlocale": "cpp",
         "stack": "cpp",
         "deque": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "utility": "cpp"
     }
 }
