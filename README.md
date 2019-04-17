@@ -35,6 +35,55 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 * MISC
   * JAGGED
     * [C](ARRAYS/C/MISC/jaggedarray.c)
+  * *Arrangement and Rearrangement*
+    * **Rearrange Positive and Negative**
+      * [C++](ARRAYS/C++/ArrangementRearrangement/RearrangePositiveNegative.cpp)
+    * **Replace even in the stream**
+      * [C++](ARRAYS/C++/ArrangementRearrangement/Replace_Even_With_first.cpp)
+  * *ARRAY ROTATION*
+    * **Rotate array in O(n)**
+      * [C++](ARRAYS/C++/Array_Rotations/leftRotate_in_N_time.cpp)
+    * **Rotate array cyclically**
+      * [C++](ARRAYS/C++/Array_Rotations/rotate_Array_Cyclically.cpp)
+    * **Rotate array by K**
+      * [C++](ARRAYS/C++/Array_Rotations/rotateArrayBy_K.cpp)
+    * **Rotate matrix by 90**
+      * [C++](ARRAYS/C++/Array_Rotations/RotateMatrixBy90.cpp)
+    * **Find the min count to get original array from rotated array**
+      * [C++](ARRAYS/C++/Array_Rotations/find_Min_Count_to_Get_originalArray_from_rotated_Array.cpp)
+    * **Find Maximum Hamming Distance**
+      * [C++](ARRAYS/C++/Array_Rotations/findMaxHammingDistance.cpp)
+    * **Find Maximum value with only rotations allowed**
+      * [C++](ARRAYS/C++/Array_Rotations/findMaxValueWithOnlyRotationsAllowed.cpp)
+    * **Find Minimum Element in Rotated Sorted Array**
+      * [C++](ARRAYS/C++/Array_Rotations/findMinElementIn_RotatedSortedArray.cpp)
+    * **Find pair with given Sum in Rotated Sorted Array**
+      * [C++](ARRAYS/C++/Array_Rotations/findPairWithGivenSum_InRotatedArray.cpp)
+  * *Occurances*
+    * **Find Maximum odd count**
+      * [C++](ARRAYS/C++/Occurances/findMaxOddCount.cpp)
+    * **Find missing number with the given duplicate**
+      * [C++](ARRAYS/C++/Occurances/findMissingNum_with_DuplicatesGiven.cpp)
+    * **Find pairs with sum K**
+      * [C++](ARRAYS/C++/Occurances/findPairsWithSumK.cpp)
+    * **Occurance of particular number**
+      * [C++](ARRAYS/C++/Occurances/occourenceOfperticularNum.cpp)
+    * **Row and Column Sum**
+      * [C++](ARRAYS/C++/Occurances/RowColSum.cpp)
+  * *Order Statistics*
+    * **Find smallest in 2d matrix**
+      * [C++](ARRAYS/C++/OrderStatistics/Find_Smallest_in_2D_Matrix.cpp)
+    * **Find largest element in array**
+      * [C++](ARRAYS/C++/OrderStatistics/findLargest.cpp)
+    * **Find Mean and Median of the array**
+      * [C++](ARRAYS/C++/OrderStatistics/fndMeanMedianofArray.cpp)
+    * **Find the K largest Smallest Element**
+      * [C++](ARRAYS/C++/OrderStatistics/kthLargestSmallestElement.cpp)
+    * **Find the largest 3 elements**
+      * [C++](ARRAYS/C++/OrderStatistics/largest3Elements.cpp)
+  * *Pattern Printing*
+    * **Spiral Order Matrix**
+      * [C++](ARRAYS/C++/Pattern_printing/SpiralOrderMat.cpp)
 
 ## STRING
 
@@ -133,12 +182,16 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 * MISC
   * **Construct Tree using Inorder and Preorder**
     * [C](TREES/BINARY-TREE/C/constructTreeInorder.c)
-  * **Construct Tree with inorder and postorder**
+  * **Construct Tree with Inorder and Postorder**
     * [C++](TREES/BINARY-TREE/Cpp/Construct_Tree_In_Post.cpp)
   * **Find right nodes**
     * [C++](TREES/BINARY-TREE/Cpp/printRightNodes.cpp)
   * **Print odd level nodes**
     * [C++](TREES/BINARY-TREE/Cpp/printOddEvenNodes_Tree.cpp)
+  * **Print Top View of Binary Tree**
+    * [C++](TREES/BINARY-TREE/Cpp/topViewOfBinaryTree.cpp)
+  * **Print Cousins of a given node in Binary Tree**
+    * [C++](TREES/BINARY-TREE/Cpp/PrintCousins.cpp)
   * **Count leaf and non leaf nodes**
     * [C++](TREES/BINARY-TREE/Cpp/findLeafAndNonLeaf.cpp)
   * **Find the height of the tree**
