@@ -84,6 +84,7 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
   * *Pattern Printing*
     * **Spiral Order Matrix**
       * [C++](ARRAYS/C++/Pattern_printing/SpiralOrderMat.cpp)
+      * [JAVA](ARRAYS/JAVA/MISC/spiralOrder.java)
 
 ## STRING
 
@@ -198,6 +199,8 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
     * [C++](TREES/BINARY-TREE/Cpp/findHeightOfTree.cpp)
   * **Construct Mirror Tree**
     * [C++](TREES/BINARY-TREE/Cpp/ConstructMirrorTree.cpp)
+
+### HEAPS
 
 ## GRAPHS
 
