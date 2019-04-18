@@ -3,3 +3,6 @@
 *.exe
 *.vscode
 *.idea
+*.ipch
+*.bin
+*.exe
