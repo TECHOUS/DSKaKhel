@@ -31,14 +31,40 @@ Output : Mean = 4
 
 #include<iostream>
 #include<limits>
+#include<algorithm>
 using namespace std;
 
 int findMean(int *arr,int size){
+    float sum = 0;
+    for(int i = 0 ; i < size ; i++){
+        sum += arr[i];
+    }
+
+    return (float)sum/size;
 
 }
 int findMedian(int *arr,int size){
-    
+    sort(arr,arr+size);
+    int median;
+
+    if(size % 2 == 0){
+        median = (arr[(size/2)-1]+arr[size/2])/2;
+    }else{
+        median = arr[(size/2)];
+    }
+    return float(median);
 }
 int main(){
+    int size;
+    cin>>size;
+    int * arr = new int[size];
+
+    for(int i = 0 ; i < size ; i++){
+        cin>>arr[i];
+    }
+
+    cout<<"The mean is "<<(float)findMean(arr,size)<<endl;
+    cout<<"The median is"<<(float)findMedian(arr,size)<<endl;
+
 
 }
