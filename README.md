@@ -91,6 +91,8 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 * [C](STRING/C/Strings.c)
 * [C++](STRING/C++/Strings.cpp)
 * [JAVA](STRING/JAVA/Strings.java)
+* [JavaScript](STRING/JS/string.js)
+* [Python](STRING/PY/string.py)
 
 ## LISTS
 
