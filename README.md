@@ -43,6 +43,8 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
   * *ARRAY ROTATION*
     * **Rotate array in O(n)**
       * [C++](ARRAYS/C++/Array_Rotations/leftRotate_in_N_time.cpp)
+    * **Rotate array to right**
+      * [JAVA](ARRAYS/JAVA/Array_Rotations/RotateArray.java)
     * **Rotate array cyclically**
       * [C++](ARRAYS/C++/Array_Rotations/rotate_Array_Cyclically.cpp)
     * **Rotate array by K**
