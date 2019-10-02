@@ -1,8 +1,19 @@
-# CONRIBUTING
+# CONTRIBUTION
 
-* Maintain a proper format.
-* Add the code in the language you love by making a langauge name folder in a data structure if not present.
-* By adding new langauge code should also be added otherwise pull request will not be accepted.
-* Add specfied .gitignore file in new language directory.
-* Add testcases in comments if you want.
-* If your pull request is according to guidelines then your name will be added in [CONTRIBUTORS](CONTRIBUTORS.md).
+* First star our repository otherwise pull request will not be merged.
+* For doing contribution open an issue and tell us which program you like to add and in which language (use custom template for making issue)
+* After opening issue we comment and then fork our repo and send us pull request
+* In 12 hours we make sure that pull request is merged if valid.
+
+## DO
+
+* Suggest a new language code in the issue.
+
+## DON'TS
+
+* Make an issue containing the program which already exists in our repository
+
+## WARNINGS
+
+* Pull Request will only be merged if you have created an issue we have commented on it to send us pull request
+* Unnecessary pull requests will not be merged and are marked invalid.
