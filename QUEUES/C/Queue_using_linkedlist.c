@@ -1,9 +1,10 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 struct node{
 	int data;
 	struct node* next;
 };
+
 struct node* front;
 struct node* rear;
 
@@ -12,6 +13,7 @@ struct node* getnewnode(int data){
 	temp->data = data;
 	temp->next = NULL;
 }
+
 void enqueue(int data){
 	if(front == NULL){
 		front = getnewnode(data);
@@ -21,6 +23,7 @@ void enqueue(int data){
 	rear->next = getnewnode(data);
 	rear = rear->next;
 }
+
 void dequeue(){
 	if(front == rear){
 		struct node* temp = front;
@@ -32,6 +35,7 @@ void dequeue(){
 	front = front->next;
 	free(temp);
 }
+
 void print_ll(){
 	struct node* temp = front;
 	while(temp != NULL){
@@ -39,6 +43,7 @@ void print_ll(){
 		temp = temp->next;
 	}
 }
+
 void search(int val){
 	struct node* temp = front;
 	int i=1;
@@ -52,6 +57,7 @@ void search(int val){
 	}
 	printf("%d is not present in the list\n",val);
 }
+
 int main(){
 	front = NULL;rear = NULL;
 	printf("operations in the queue are-> 0-enqueue, 1-dequeue, 2-search, 3-display, 4-display front, 5-display rear, 6-check if empty ");

@@ -1,26 +1,31 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+
 char arr[10000];
 char stack[10000];
 char ans[10000];
 char new[10000];
 int len = 0;
+
 void push(char ch){
 	stack[len] = ch;
 	len++;
 }
+
 void pop(){
 	if(len)
 		len--;
 	else
 		return;
 }
+
 char peek(){
 	if(len)
 		return stack[len-1];
 	else
 		return '\0';
 }
+
 void print_st(){
 	int flag = 0;
 	for(int i=len-1;i>=0;i--){
@@ -30,6 +35,7 @@ void print_st(){
 	if(!flag)
 		printf("stack is empty\n");
 }
+
 int check_prec(char ch){	
 	if((ch=='/' || ch=='*') && (peek()=='+' || peek()=='-' || peek()=='(')){
 		return 1;
@@ -37,6 +43,7 @@ int check_prec(char ch){
 	else
 		return 0;
 }
+
 void reverse(){	
 	//reverse new
 	int length = strlen(new);
@@ -49,6 +56,7 @@ void reverse(){
 			arr[length-1-i] = new[i];
 	}
 }
+
 int main(){
 	printf("Infix->Prefix\n");
 	printf("enter the expression ");

@@ -103,6 +103,7 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
   * [C++](LISTS/SINGLE/Cpp/Main.cpp)
     * [INSERT AT HEAD](LISTS/SINGLE/Cpp/Insert_at_Head.cpp)
     * [INSERT AT TAIL](LISTS/SINGLE/Cpp/Insert_at_Tail.cpp)
+    * [Count the Length of Loop](LISTS/SINGLE/Cpp/LengthofLoop.cpp)
   * [JAVA](LISTS/SINGLE/JAVA/Main.java)
 * DOUBLE
   * [C](LISTS/DOUBLE/C/Main.c)
@@ -135,6 +136,9 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
   * [JAVA](STACKS/JAVA/LINKED-STACK/LinkedStack.java)
 * INBUILT
 * MISC
+  * C
+    * [Infix to Prefix](STACKS/C/Infix_to_Prefix.c)
+    * [String is pallendrome or not](STACKS/C/Check_Palindrome.c)
   * C++
     * [Brackets are balanced or not](STACKS/Cpp/balancedParanthesis.cpp)
     * [Evaluation of expression](STACKS/Cpp/evaluationofExpressions.cpp)
@@ -151,6 +155,17 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
     * [Reverse a stack](STACKS/Python/reverseStack.py)
 
 ## QUEUES
+
+### NORMAL QUEUE
+
+* C
+  * [Normal Queue](QUEUES/C/Queue_using_linkedlist.c)
+
+### DOUBLE ENDED QUEUE
+
+### CIRCULAR QUEUE
+
+* [C](QUEUES/C/CircularQueueUsingArray.c)
 
 ## TREES
 

@@ -1,24 +1,29 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+
 char arr[10000];
 char stack[10000];
 int len = 0;
+
 void push(char ch){
 	stack[len] = ch;
 	len++;
 }
+
 void pop(){
 	if(len)
 		len--;
 	else
 		return;
 }
+
 char peek(){
 	if(len)
 		return stack[len-1];
 	else
 		return '\0';
 }
+
 int main(){
 	printf("enter the string: ");
 	scanf("%s",arr);
