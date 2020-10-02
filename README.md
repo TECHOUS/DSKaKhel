@@ -222,6 +222,8 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 ### HEAPS
 
 ## GRAPHS
+   * **Representation of Graph - Adjacency list**
+     * [JAVA](GRAPH/JAVA/Graph-Representation.java)
 
 ## LICENSE
 
