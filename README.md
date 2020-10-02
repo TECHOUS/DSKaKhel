@@ -224,6 +224,8 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 ## GRAPHS
    * **Representation of Graph - Adjacency list**
      * [JAVA](GRAPH/JAVA/Graph-Representation.java)
+   * **Strongly connected components**
+     * [C++](GRAPH/C++/strongly_conn_comp.cpp)
 
 ## LICENSE
 
