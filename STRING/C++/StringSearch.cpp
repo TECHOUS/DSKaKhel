@@ -80,10 +80,6 @@ vector<int> suffixArray(string str, int n){
         c = c_new;
         len*=2;
     }
-    /*for(int i = 0; i < n; i++){
-        cout<<p[i]<<" ";
-    }
-    cout<<"\n"; */
     return p;
 }
  
@@ -93,7 +89,6 @@ string str,s;
  
 bool searchWord(int start, int end){
     int mid = start + (end- start)/2;
-    //cout<<"start: "<<start<<" end: "<<end<<" mid: "<<mid<<"\n";
     if(end >= start){
         int nstart,nend;
         bool sw = true;
