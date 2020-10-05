@@ -87,6 +87,9 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
     * **Spiral Order Matrix**
       * [C++](ARRAYS/C++/Pattern_printing/SpiralOrderMat.cpp)
       * [JAVA](ARRAYS/JAVA/MISC/spiralOrder.java)
+  * *Recursion*
+    * **Josephus Problem**
+      * [C++](ARRAYS/C++/Recursion/josephusProblem.cpp)
 
 ## STRING
 
