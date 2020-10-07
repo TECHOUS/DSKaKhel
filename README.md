@@ -112,6 +112,7 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 * CIRCULAR
 * INBUILT LISTS
   * LINKED LIST
+    * [JAVA](LISTS/INBUILT/LinkedList/JavaLinkedList.java)  
   * ARRAYLIST
     * [JAVA](LISTS/INBUILT/ARRAYLIST/JAVA/arrayList.java)
   * VECTORS
