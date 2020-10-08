@@ -96,6 +96,7 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 * [JAVA](STRING/JAVA/Strings.java)
 * [JavaScript](STRING/JS/string.js)
 * [Python](STRING/PY/string.py)
+* [Go](STRING/Go/Strings.go)
 
 ## LISTS
 
