@@ -1,10 +1,43 @@
-# Data-Structures
+# Data Structures
 
-A repository of Data Structures and all the programs in different languages.
+A repository of implementations for Data Structures in different languages. Here we focus on implementation of Data Structures. If you want to contribute via Algorithms then please check out this [Algorithms repo](https://github.com/TechOUs/Algorithms).
 
-## CONTRIBUTION
+## Contributing Guidelines
 
-For your contribution follow our [guidelines](CONTRIBUTING.md)
+For your contribution follow our new [guidelines](CONTRIBUTING.md)
+
+***
+
+### **Hacktober Fest 20 Updates**
+
+PRs count if:
+
+* Submitted during the month of October AND
+  * Submitted in a public repo AND (
+    * The PR is labelled as `hacktoberfest-accepted` by a maintainer
+    OR
+    * Submitted in a repo with the `hacktoberfest` topic AND (
+      * The PR is merged
+      OR
+      * The PR has been approved
+
+    )
+  
+  )
+
+[**Source**](https://hacktoberfest.digitalocean.com/hacktoberfest-update)
+
+As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository we will be counted in the Hacktober Fest 20.
+
+Also we will soon be launching the application to check your PRs for the Hacktober Fest20
+
+Happy Hacking !
+
+***
+
+## Code Of Conduct
+
+We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_CONDUCT.md).
 
 ## ARRAYS
 
@@ -88,7 +121,9 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
       * [C++](ARRAYS/C++/Pattern_printing/SpiralOrderMat.cpp)
       * [JAVA](ARRAYS/JAVA/MISC/spiralOrder.java)
 
-## STRING
+***
+
+## STRINGS
 
 * [C](STRING/C/Strings.c)
 * [C++](STRING/C++/Strings.cpp)
@@ -98,6 +133,8 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 * [JavaScript](STRING/JS/string.js)
 * [Python](STRING/PY/string.py)
 * [Go](STRING/Go/Strings.go)
+
+***
 
 ## LISTS
 
@@ -129,6 +166,8 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
       * APPROACH 5: [Finding node in one scan](LISTS/MISC/Nth-node-from-end/JAVA/Approach5.java)
       * APPROACH 6: [Using recursion](LISTS/MISC/Nth-node-from-end/JAVA/Approach6.java)
 
+***
+
 ## STACKS
 
 * FIXED ARRAY STACK
@@ -157,18 +196,21 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
     * [Prefix Evaluation](STACKS/Python/prefixEvaluation.py)
     * [Reverse a stack](STACKS/Python/reverseStack.py)
 
+***
+
 ## QUEUES
 
 ### NORMAL QUEUE
 
-* C
-  * [Normal Queue](QUEUES/C/Queue_using_linkedlist.c)
+* [C](QUEUES/C/Queue_using_linkedlist.c)
 
 ### DOUBLE ENDED QUEUE
 
 ### CIRCULAR QUEUE
 
 * [C](QUEUES/C/CircularQueueUsingArray.c)
+
+***
 
 ## TREES
 
@@ -222,11 +264,18 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
   * **Construct Mirror Tree**
     * [C++](TREES/BINARY-TREE/Cpp/ConstructMirrorTree.cpp)
 
-### HEAPS
+***
+
+## HEAPS
+
+***
 
 ## GRAPHS
-   * **Representation of Graph - Adjacency list**
-     * [JAVA](GRAPH/JAVA/Graph-Representation.java)
+
+* Representation of Graph - Adjacency list
+  * [JAVA](GRAPH/JAVA/Graph-Representation.java)
+
+***
 
 ## LICENSE
 
@@ -234,9 +283,4 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
 
 ### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts
 
-                                            ALL RIGHTS RESERVED:
-
-                                            TradeMark : TechOus
-
-                                            Admins: 1. Nidhi Mittal
-                                                    2. Aniket Batabyal
+:copyright: TECHOUS 2020
