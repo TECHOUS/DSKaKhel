@@ -1,10 +1,17 @@
+#Making List l
 l = [11, 12, 13, 14]
+
+#Using append function on list
 l.append(50)
 l.append(60)
 print("list after adding 50 & 60:-  ", l)
+
+#Using remove function on list
 l.remove(11)
 l.remove(13)
 print("list after removing 11 & 13:-  ", l)
+
+#Using the sort function with their parameters changed
 l.sort(reverse=False)
 print("list after sortinng in ascending order:-  ",l)
 l.sort(reverse=True)
@@ -14,6 +21,8 @@ if 13 in l:
 else:
     print("no 13 is not in the list")
 print("no of elements list have:- ",len(l))
+
+#Traversing the list
 s = 0
 oddsum = 0
 evensum = 0
@@ -36,6 +45,8 @@ print("sum of elements in the list:-  ",s)
 print("sum of odd elements in the list:-  ",oddsum)
 print("sum of even elements in the list:-  ",evensum)
 print("sum of prime elements in the list:- ",primesum)
+
+#Using clear function to delete all the data in list 
 l.clear()
 print("list after using clear function:-  ",l)
 del l
