@@ -113,6 +113,7 @@ For your contribution follow our [guidelines](CONTRIBUTING.md)
   * LINKED LIST
   * ARRAYLIST
     * [JAVA](LISTS/INBUILT/ARRAYLIST/JAVA/arrayList.java)
+    * [PYTHON](LISTS/INBUILT/ARRAYLIST/PYTHON/kritika2311.py)
   * VECTORS
     * [C++](LISTS/INBUILT/VECTORS/C++/Main.cpp)
     * [JAVA](LISTS/INBUILT/VECTORS/JAVA/vectors.java)
