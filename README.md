@@ -145,6 +145,9 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [INSERT AT TAIL](LISTS/SINGLE/Cpp/Insert_at_Tail.cpp)
     * [Count the Length of Loop](LISTS/SINGLE/Cpp/LengthofLoop.cpp)
   * [JAVA](LISTS/SINGLE/JAVA/Main.java)
+    * [Add two numbers represented by linked lists](LISTS/SINGLE/JAVA/Add two numbers represented by linked lists.java)
+    * [Select a Random Node from a Singly Linked List](LISTS/SINGLE/JAVA/Select a Random Node from a Singly Linked List.java)
+    * [Reverse a Linked List in groups](LISTS/SINGLE/JAVA/Reverse a Linked List in groups.java)
 * DOUBLE
   * [C](LISTS/DOUBLE/C/Main.c)
   * [JAVA](LISTS/DOUBLE/JAVA/Main.java)
