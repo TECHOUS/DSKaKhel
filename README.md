@@ -29,7 +29,7 @@ PRs count if:
 
 As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository we will be counted in the Hacktober Fest 20.
 
-Also we will soon be launching the application to check your PRs for the Hacktober Fest20
+Also we will soon be launching the applications to check your PRs for the Hacktober Fest20
 
 Happy Hacking !
 
@@ -283,6 +283,6 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 
 [Apache License](LICENSE)
 
-### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts
+### NOTE : Don't forget to pull before pushing your commits otherwise it will create merge conflicts
 
 :copyright: TECHOUS 2020
