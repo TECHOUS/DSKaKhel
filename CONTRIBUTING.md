@@ -1,36 +1,55 @@
-# Contributing Guidelines
+# CONTRIBUTION
 
-* Please help us by making a star on our repository.
+Thanks for coming here !!!
 
-## HACKTOBER FEST (In October)
+Please help us by making a **star** on this repository.
 
-For contributing in October make sure first you read all these guidelines given below:
+## :rocket: Coding Conventions
 
-* Firstly read the README where we have all the Data Structures added to this repository. Then you can decide your Data Structure implementation which is not present.
-* After making that decision check the [**Issue Templates**](https://github.com/TechOUs/Data-Structures/issues/new/choose) and create the issue with *HacktoberFest< YEAR >* template. Then we can comment on the issue with the folder details where you can add your **Data Structure Implementation**.
+1. Directory names should be in lowercase with underscore `_` if the name contains any space.
+2. Code file name should be in camel casing for example `singleLinkedList.c`
+3. No need to add .gitignore files it will be maintained in the root only
+4. Make sure filename is unique in specific directory
+5. Copying of code some other platforms such as GFG is not allowed.
 
-![issue templates](.github/images/image.png)
+### :file_folder: Directory Conventions
 
-* After creating the issue wait for the our reply then you can send us Pull Request.
-* Wait for the response from our side and your PR and Issue will be linked by the maintainer.
-* Also as per the new guidelines the Pull Request will first be approved then it will be marked at **hacktoberfest-accepted** label and then it will be merged.
+* data_structure
+  * data_structure_type
+    * codeWithExtension (unique name with no duplicate data structure)
+
+## HACKTOBER FEST Guidelines for October (Updated)
+
+For contributing in October read all these guidelines given below:
+
+* Firstly read the README where we have all the implemented Data Structures are listed that are added to this repository and please go through our project coding guidelines.
+
+* After deciding which Data Structure implementation and which language **create a pull request** with the code changes and the README index changes. Make sure you **send as PR in the Hacktober fest PR template only**.
+
+* After sending the PR, wait for the response from our side
+
+* PR Review Process
+  * Firstly if the PR seems to be valid then it will be labelled as `HacktoberFest21` and with the `specific language label` and will be linked to the `Project` via maintainer
+  * If the PR is wrongly sent then it will be marked as `invalid`
+  * Secondly after adding the labels if everything seems fine either your PR will be approved or the PR will be marked for Request Changes
+  * Before merging the changes the PR will be marked with **hacktoberfest-accepted** label
+  * If the requested changes are not done in a week then the PRs will be marked as **hacktoberfest-expiry** and the other PRs which are not merged before 1 November will also be marked as **hacktoberfest-expiry**.
+
+* If you want to check your PRs status you can now check them at our `HacktoberFest21 project`.
+* If someone tries to spam this PR process then the user's PRs will be marked as `spam` and as a community we will make sure you don't participate in HacktoberFest anymore.
 
 ## OUTSIDE HACKTOBER FEST (Other than October)
 
-* Before contribution see through repository index and then open issue. (Duplicate code present in index will not be accepted)
-* For doing contribution open an issue and tell us which program you like to add and in which language (use custom template for making issue).
-* After opening issue we comment and then fork our repo and send us pull request.
+* Before contribution see through repository index and check which Algorithm is missing and in which language.
+* For doing the contribution **fork the repository** and **send us an pull request** but make sure you use the **Pull Request template**
 * We make sure that pull request is merged ASAP if valid.
 
-## DO
+## FAQs
 
-* Suggest a new language code in the issue.
+### How can we add the language types that are not supported
 
-## DON'TS
+Don't worry just send us a valid PR and we will add the language support automatically. Feel free to choose any language.
 
-* Make an issue containing the program which already exists in our repository
+Thanks !!!
 
-## WARNINGS
-
-* Pull Request will only be merged if you have created an issue we have commented on it to send us pull request
-* Unnecessary pull requests will not be merged and are marked invalid.
+Happy Contributing !!!

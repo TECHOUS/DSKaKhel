@@ -1,14 +1,26 @@
-# Data Structures
+# DSKaKhel
 
-A repository of implementations for Data Structures in different languages. Here we focus on implementation of Data Structures. If you want to contribute via Algorithms then please check out this [Algorithms repo](https://github.com/TechOUs/Algorithms).
+Learning Data Structures is a like of Khel (Game), for getting good at this Khel, learn new data structures via contributing to this repository.
 
-## Contributing Guidelines
+![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/DSKaKhel/HacktoberFest21?style=for-the-badge&color=cyan)
+![GitHub pull requests by-label](https://img.shields.io/github/issues-pr/TECHOUS/DSKaKhel/HacktoberFest21?color=red&style=for-the-badge)
+![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/DSKaKhel/HacktoberFest20?color=lightgreen&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/TECHOUS/DSKaKhel?style=for-the-badge&color=yellow)
+![GitHub top language](https://img.shields.io/github/languages/top/TECHOUS/DSKaKhel?style=for-the-badge&color=pink)
+![Lines of code](https://img.shields.io/tokei/lines/github/TECHOUS/DSKaKhel?style=for-the-badge&color=magenta)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TECHOUS/DSKaKhel?style=for-the-badge)
 
-For your contribution follow our new [guidelines](CONTRIBUTING.md)
+If you interested in something amazing or you like Money Heist then try [AlgoHeist here](https://github.com/TECHOUS/AlgoHeist).
+
+![image](.github/images/ds.jpg)
+
+## Contributing Guidelines (Updated for 2021)
+
+For contributions checkout [new updated guidelines](CONTRIBUTING.md)
 
 ***
 
-### **Hacktober Fest 20 Updates**
+### **Hacktober Fest 21 Updates**
 
 PRs count if:
 
@@ -25,11 +37,7 @@ PRs count if:
   
   )
 
-[**Source**](https://hacktoberfest.digitalocean.com/hacktoberfest-update)
-
-As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository we will be counted in the Hacktober Fest 20.
-
-Also we will soon be launching the application to check your PRs for the Hacktober Fest20
+*As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository we will be counted in the Hacktober Fest 21.*
 
 Happy Hacking !
 
@@ -277,10 +285,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 
 ***
 
-## LICENSE
+[![GitHub](https://img.shields.io/github/license/TECHOUS/DSKaKhel?style=for-the-badge)](LICENSE)
 
-[Apache License](LICENSE)
+### NOTE : Don't forget to pull before pushing your commits otherwise it will create merge conflicts
 
-### NOTE : Dont forget to pull before pushing your commits otherwise it will create merge conflicts
-
-:copyright: TECHOUS 2020
+:copyright: TECHOUS 2019-21
