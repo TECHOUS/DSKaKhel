@@ -1,5 +1,5 @@
 import java.util.*;
-public class RotateArray
+public class rotateArray
 {
     public static void main(String[] args)
     {
