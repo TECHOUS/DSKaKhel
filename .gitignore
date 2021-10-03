@@ -1,8 +1,21 @@
+# ignore IDE files
+*.vscode
+*.idea
+.settings
+
 #ignore exe files
 
 *.exe
-*.vscode
-*.idea
 *.ipch
 *.bin
 *.exe
+
+# java files
+*.class
+*.jar
+*.war
+.classpath
+.project
+
+# c/c++ ignore files
+*.out
