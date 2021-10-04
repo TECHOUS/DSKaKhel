@@ -58,8 +58,14 @@ int main()
     string s1("Hactoberfest");
     string s2("Github");
     compareFunction(s1, s2);
-    string s3("Git");
-    string s4("anshumanlite");
-    compareFunction(s3, s4);
     return 0;
 }
+
+/*The ouput will be:-
+
+	Hactoberfest is not equal to Github
+        Hactoberfest is greater than Github
+	
+	*/
+
+
