@@ -61,7 +61,7 @@ int main()
     return 0;
 }
 
-/*The ouput will be:-
+/*The output will be:-
 
 	Hactoberfest is not equal to Github
         Hactoberfest is greater than Github
