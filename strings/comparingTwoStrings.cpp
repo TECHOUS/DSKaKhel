@@ -57,7 +57,7 @@ int main(){      //Driver function
 
 /*The output will be:-
 
-	Hactoberfest is greater
+	Hactoberfest is greater.
 	
 	*/
 
