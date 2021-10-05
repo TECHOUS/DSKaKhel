@@ -16,55 +16,48 @@
 	   
 	   // THIS IS A CODE IN C++ FOR COMPARING 2 STRINGS
 	   
-	   /* here I am using relational operator but this can also be implemented using compare() .
-	   
-	   Differences between C++ Relational operators and compare() :-  
-
-       -compare() returns int, while relational operators return boolean value
-	   -A single Relational operator is unique to a certain operation, while compare() can perform lots of different operations alone.
-	   */
 	   
 	   
 	   
-#include <iostream>
- 
+	   
+#include<iostream>
 using namespace std;
- 
-void compareFunction(string s1, string s2)
-{
-    // comparing both using inbuilt function
-    int x = s1.compare(s2);
- 
-    if (x != 0) {
-        cout << s1
-             << " is not equal to "
-             << s2 << endl;
-        if (x > 0)
-            cout << s1
-                 << " is greater than "
-                 << s2 << endl;
-        else
-            cout << s2
-                 << " is greater than "
-                 << s1 << endl;
+
+void comparing2strings(string a, string b){     //Declaring comparison function
+    int x,y;
+    x=a.length();
+    y=b.length();
+
+    if(x==y){
+        cout<<"Both are Equal"<<endl;
+
+    }else if(x>y){
+        cout<<a<<" is greater"<<endl;
+    }else{
+        cout<<b<<" is greater"<<endl;
     }
-    else
-        cout << s1 << " is equal to " << s2 << endl;
+
 }
- 
-// Driver Code
-int main()
-{
-    string s1("Hactoberfest");
-    string s2("Github");
-    compareFunction(s1, s2);
+
+int main(){      //Driver function
+    string a,b;
+    cout<<"Enter 1st string:- "<<endl;
+    cin>>a;
+    cout<<"Enter 2nd string:- "<<endl;
+    cin>>b;
+
+    comparing2strings(a,b);   //calling comparison function created above.
     return 0;
 }
 
+
+
+/* Input:- Hactoberfest
+           github
+
 /*The output will be:-
 
-	Hactoberfest is not equal to Github
-        Hactoberfest is greater than Github
+	Hactoberfest is greater
 	
 	*/
 
