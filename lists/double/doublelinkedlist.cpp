@@ -25,7 +25,7 @@ void printList(Node* head)
     }
     cout<<endl;
 }
-Node * insertatbeg(Node* head,int i)
+Node * insertAtBeg(Node* head,int i)
 { Node* temp=new Node(i);
 temp->next=head;
 head->prev=temp;
@@ -33,7 +33,7 @@ head=temp;
 return temp;
 
 }
-Node* insertatend(Node* head,int i)
+Node* insertAtEnd(Node* head,int i)
 {
     Node*temp=new Node(i);
     Node* cur=head;
@@ -45,7 +45,7 @@ Node* insertatend(Node* head,int i)
     temp->prev=cur;
     return head;
 }
-Node* insertatmiddle(Node* head,int d,int i)
+Node* insertAtMiddle(Node* head,int d,int i)
 { Node*temp=new Node(i);
  Node* cur=head;
     while(cur->data!=d)
@@ -60,7 +60,7 @@ Node* insertatmiddle(Node* head,int d,int i)
 
 
 }
-Node* delatbeg(Node* head)
+Node* deleteAtBeg(Node* head)
 {
     if(head==NULL)
     {
@@ -74,7 +74,7 @@ Node* delatbeg(Node* head)
         return head;
     }
 }
-Node* delatend(Node* head)
+Node* deleteAtEnd(Node* head)
 {
     if(head==NULL)
     {
@@ -93,7 +93,7 @@ Node* delatend(Node* head)
       return head;
     }
 }
-Node* delatmid(Node* head,int d)
+Node* deleteAtMid(Node* head,int d)
 {
     if(head==NULL)
     {
@@ -141,16 +141,16 @@ int main()
     head->next->prev=head;
     head->next->next=new Node(3);
     head->next->next->prev=head->next;
-    head=insertatbeg(head,4);
-    head=insertatend(head,5);
-    head=insertatmiddle(head,2,7);
+    head=insertAtBeg(head,4);
+    head=insertAtEnd(head,5);
+    head=insertAtMiddle(head,2,7);
     head=reverse(head);
-    head=delatbeg(head);
+    head=deleteAtBeg(head);
     
     printList(head);
-     head=delatmid(head,2);
+     head=deleteAtMid(head,2);
      printList(head);
-    head=delatend(head);
+    head=deleteAtEnd(head);
     printList(head);
     return 0;
 }
