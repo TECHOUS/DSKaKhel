@@ -29,13 +29,13 @@ For contributing in October read all these guidelines given below:
 * After sending the PR, wait for the response from our side
 
 * PR Review Process
-  * Firstly if the PR seems to be valid then it will be labelled as `HacktoberFest21` and with the `specific language label` and will be linked to the `Project` via maintainer
+  * Firstly if the PR seems to be valid then it will be labelled as `HacktoberFest22` and with the `specific language label` and will be linked to the `Project` via maintainer
   * If the PR is wrongly sent then it will be marked as `invalid`
   * Secondly after adding the labels if everything seems fine either your PR will be approved or the PR will be marked for Request Changes
   * Before merging the changes the PR will be marked with **hacktoberfest-accepted** label
   * If the requested changes are not done in a week then the PRs will be marked as **hacktoberfest-expiry** and the other PRs which are not merged before 1 November will also be marked as **hacktoberfest-expiry**.
 
-* If you want to check your PRs status you can now check them at our `HacktoberFest21 project`.
+* If you want to check your PRs status you can now check them at our `HacktoberFest22 project`.
 * If someone tries to spam this PR process then the user's PRs will be marked as `spam` and as a community we will make sure you don't participate in HacktoberFest anymore.
 
 ## OUTSIDE HACKTOBER FEST (Other than October)

@@ -2,8 +2,9 @@
 
 Learning Data Structures is a like of Khel (Game), for getting good at this Khel, learn new data structures via contributing to this repository.
 
-![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/DSKaKhel/HacktoberFest21?style=for-the-badge&color=cyan)
-![GitHub pull requests by-label](https://img.shields.io/github/issues-pr/TECHOUS/DSKaKhel/HacktoberFest21?color=red&style=for-the-badge)
+![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/DSKaKhel/HacktoberFest22?style=for-the-badge&color=cyan)
+![GitHub pull requests by-label](https://img.shields.io/github/issues-pr/TECHOUS/DSKaKhel/HacktoberFest22?color=red&style=for-the-badge)
+![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/DSKaKhel/HacktoberFest21?color=lightgreen&style=for-the-badge)
 ![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/DSKaKhel/HacktoberFest20?color=lightgreen&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/TECHOUS/DSKaKhel?style=for-the-badge&color=yellow)
 ![GitHub top language](https://img.shields.io/github/languages/top/TECHOUS/DSKaKhel?style=for-the-badge&color=pink)
@@ -14,13 +15,13 @@ If you interested in something amazing or you like Money Heist then try [AlgoHei
 
 ![image](.github/images/ds.jpg)
 
-## Contributing Guidelines (Updated for 2021)
+## Contributing Guidelines
 
 For contributions checkout [new updated guidelines](CONTRIBUTING.md)
 
 ***
 
-### **Hacktober Fest 21 Updates**
+### **Hacktober Fest 22 Updates**
 
 PRs count if:
 
@@ -37,7 +38,7 @@ PRs count if:
   
   )
 
-*As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository we will be counted in the Hacktober Fest 21.*
+*As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository we will be counted in the Hacktober Fest 22.*
 
 Happy Hacking !
 
@@ -291,4 +292,4 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 
 ### NOTE : Don't forget to pull before pushing your commits otherwise it will create merge conflicts
 
-:copyright: TECHOUS 2019-21
+:copyright: TECHOUS 2019-22

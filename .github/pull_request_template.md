@@ -1,4 +1,4 @@
-# HacktoberFest 21
+# HacktoberFest 22
 
 Please mention the PR subject as `DSKaKhel: Data Structure you are implementing`
 
@@ -15,13 +15,9 @@ Mention the language name here in which you will submit the code
 Enter the code file name with extensionhere
 *make sure you use camel casing for code files such as linkedList.c*
 
-## Do you like to code or playing computer games like GTA5
+## What was the toughest question you got till now in the interviews ?
 
-Yes / No
-
-### If Yes, mention your favourite Game (optional)
-
-mention the Game here
+enter the question here
 
 ## YOU ARE
 
