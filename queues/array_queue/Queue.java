@@ -1,10 +1,10 @@
 import java.util.Scanner;
-class q_back
+class ArrayQueue
 {
     Scanner sn = new Scanner(System.in);
     int front=-1,rear=-1,len;
     int arr[];
-    public q_back(int size)
+    public ArrayQueue(int size)
     {
         arr=new int[size];
         len=size;
@@ -48,12 +48,12 @@ class q_back
     }
 }
 
-public class QUEUE {
+public class Queue {
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
         System.out.println("Enter the sixe for array");
         int size = sn.nextInt();
-        q_back qtb = new q_back(size);
+        ArrayQueue qtb = new ArrayQueue(size);
         int k = 1;
         while (k == 1) {
             System.out.println("Press 1 for insertion");
